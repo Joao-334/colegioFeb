@@ -1,0 +1,15 @@
+@import '../../assets/var';
+
+.link {
+    color: $branco;
+    font-size: 1.5rem;
+    margin: 1rem;
+    transition: 0.75s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        transition: 0.75s ease-in-out;
+        font-size: 1.75rem;
+    }
+
+}
