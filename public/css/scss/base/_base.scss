@@ -1,0 +1,35 @@
+@import "./var";
+
+@font-face {
+  font-family: "Bakso Sapi";
+  src: url("../../fonts/BaksoSapi.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("../../fonts/GothamBold.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: $azul;
+  transition: all 0.5s ease-in-out;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}

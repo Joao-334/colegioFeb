@@ -1,0 +1,16 @@
+{
+    "name": "joao-334/colegio-feb",
+    "description": "colegio feb",
+    "autoload": {
+        "psr-4": {
+            "Unifeb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "João Felipe Reis Cavoli",
+            "email": "84241693+Joao-334@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,108 @@
+Infraestrutura
+Calendário
+Notas
+Horário de aulas
+Onde aquirir o uniforme
+Link Etapa Hub
+Link Carteirinha
+Link Declaração de Matrícula
+Notícias
+
+1 maluco:
+»
+
+
+
+Segundo Maluco:
+
+
+Terceiro Maluco:
+
+
+<h2>Depoimentos dos Alunos!</h2>
+      <div class="slider">
+        <div class="slides">
+          <div class="slides" data-id="1">
+            <img src="http://unifeb.edu.br/colegiofeb/assets/João_Prancheta 1.svg" alt="garoto">
+            <div class="text">
+              <p class="depoiment">
+                “O Colégio FEB auxiliou com a base necessária para
+                minha formação e continuidade nos estudos e foi
+                essencial para a conquista de resultados em
+                vestibulares e a vaga almejada em uma grande
+                universidade”.
+              </p>
+              <p class="name">
+                João Pedro de Almeida Lopes
+                <span class="description">
+                  | Bacharel em Engenharia de Materiais
+                </span>
+              </p>
+            </div>
+          </div>
+          <div class="slides" data-id="2">
+            <img src="https://unifeb.edu.br/colegiofeb/assets/tmnc.svg" alt="garota">
+            <div class="text">
+              <p class="depoiment">
+                “Tenho certeza de que o Colégio FEB teve papel
+                Fundamental na minha formação, por que conta com
+                uma equipe excelente, que sempre apoiou, me ensinou
+                a ser resiliente e a nunca desistir dos meus sonhos“.
+              </p>
+              <p class="name">
+                Ana Gabriela Faria Rocha
+                <span class="description">
+                  | Bacharel em Fisioterapia
+                </span>
+              </p>
+            </div>
+          </div>
+          <div class="slides" data-id="3">
+            <img src="https://unifeb.edu.br/colegiofeb/assets/Prancheta%203.svg" alt="garoto 2">
+            <div class="text">
+              <p class="depoiment">
+                “O Colégio FEB me proporcionou situações e oportunidades
+                que foram fundamentais para meu desenvolvimento como discente”.
+              </p>
+              <p class="name">
+                Leonardo Rodrigues Pietro
+                <span class="description">
+                  | Licenciatura em Física
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="slider-pagination">
+          <input type="radio" name="btnradio" id="1">
+          <input type="radio" name="btnradio" id="2">
+          <input type="radio" name="btnradio" id="3">
+        </div>
+      </div>
+
+      <!-- Teste: 
+        <div class="noticie">
+          <img src="https://www.unifeb.edu.br/uploads/posts/post_3051_1.jpg" alt="noticia 1">
+          <a href="https://www.unifeb.edu.br/posts/3051-cenario-promissor-e-alta-demanda-de-profissionais-impulsionam-carreira-de-engenheiro-de-producao" target="blank">Cenário promissor e alta demanda de profissionais impulsionam carreira de engenheiro de produção</a>
+        </div>
+        <div class="noticie">
+          <img src="https://www.unifeb.edu.br/uploads/posts/post_3050_1.jpg" alt="noticia 2">
+          <a href="https://www.unifeb.edu.br/posts/3050-artista-plastica-premiada-apresenta-a-exposicao-muito-alem-da-tela-na-biblioteca-do-unifeb" target="blank">Artista plástica premiada apresenta a exposição “Muito Além da Tela” na Biblioteca do UNIFEB</a>
+        </div>
+        <div class="noticie">
+          <img src="https://www.unifeb.edu.br/uploads/posts/post_3049_1.jpg" alt="noticia 3">
+          <a href="https://www.unifeb.edu.br/posts/3049-alunos-de-medicina-veterinaria-do-unifeb-participam-de-estagio-sobre-saude-e-bem-estar-animal-na-festa-do-peao-de-barretos" target="blank">Alunos de Medicina Veterinária do UNIFEB participam de estágio sobre saúde e bem-estar animal na Festa do Peão de Barretos</a>
+        </div>
+        <div class="noticie">
+          <img src="https://www.unifeb.edu.br/uploads/posts/post_3048_1.jpg" alt="noticia 4">
+          <a href="https://www.unifeb.edu.br/posts/3048-unifeb-sedia-reuniao-com-instituicoes-de-ensino-superior-ligadas-ao-semesp-para-compartilhar-estrategias-operacionais-e-academicas" target="blank">UNIFEB sedia reunião com instituições de ensino superior ligadas ao SEMESP para compartilhar estratégias operacionais e acadêmicas</a>
+        </div>
+        <div class="noticie">
+          <img src="https://www.unifeb.edu.br/uploads/posts/post_3048_1.jpg" alt="noticia 4">
+          <a href="https://www.unifeb.edu.br/posts/3048-unifeb-sedia-reuniao-com-instituicoes-de-ensino-superior-ligadas-ao-semesp-para-compartilhar-estrategias-operacionais-e-academicas" target="blank">UNIFEB sedia reunião com instituições de ensino superior ligadas ao SEMESP para compartilhar estratégias operacionais e acadêmicas</a>
+        </div>
+        <div class="noticie">
+          <img src="https://www.unifeb.edu.br/uploads/posts/post_3048_1.jpg" alt="noticia 4">
+          <a href="https://www.unifeb.edu.br/posts/3048-unifeb-sedia-reuniao-com-instituicoes-de-ensino-superior-ligadas-ao-semesp-para-compartilhar-estrategias-operacionais-e-academicas" target="blank">UNIFEB sedia reunião com instituições de ensino superior ligadas ao SEMESP para compartilhar estratégias operacionais e acadêmicas</a>
+        </div>
+      </div>-->

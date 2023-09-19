@@ -1,0 +1,81 @@
+.footer {
+  background-image: url(../../img/fundo_main.jpg);
+  background-position: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+  .image__background {
+    background-image: url(../../img/fundo_rodape.jpg);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0.3rem auto;
+    width: 80%;
+    height: 300px;
+    border-radius: 2rem;
+    margin-top: 2rem;
+
+    p {
+      font-family: "Gotham Bold";
+      width: 55%;
+      font-size: 1.5rem;
+      color: $rosa;
+    }
+  }
+
+  .container__icon-plus-logo {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 20%;
+
+      @media (max-width: 769px) {
+        width: 40%;
+      }
+    }
+
+    .icons {
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      font-size: 2rem;
+      text-align: center;
+      i {
+        text-align: center;
+        color: $rosa;
+        margin-left: 1rem;
+        padding: 0.5rem;
+        cursor: pointer;
+        transition: 1s;
+
+        &:hover {
+          border-radius: 1.5rem;
+          background-color: $azul;
+        }
+
+        @media (max-width: 769px) {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .footer__rights {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+    font-family: "Bakso Sapi";
+
+    
+    @media (max-width: 769px) {
+      font-size: 1rem;
+    }
+  }
+}

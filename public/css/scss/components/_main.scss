@@ -1,0 +1,153 @@
+@import "../base/var";
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../img/fundo_main.jpg);
+  background-position: center;
+
+  .container__image {
+    width: 100%;
+    height: 100%;
+
+    .image {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .topics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    .card__fund,
+    .card__med {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+
+      @media (max-width: 769px) {
+        flex-direction: column;
+      }
+
+      img {
+        border-radius: 10rem;
+        width: 100%;
+      }
+
+      p {
+        color: $rosa;
+        font-size: 1.25rem;
+        font-family: "Gotham Bold";
+        text-align: left;
+
+        @media (max-width: 769px) {
+          text-align: center;
+        }
+      }
+    }
+
+    .card__fund {
+      margin: 1rem 0;
+      padding: 1rem;
+
+      img {
+        margin-left: 2rem;
+
+        @media (max-width: 769px) {
+          margin-left: 0;
+          width: 60%;
+        }
+      }
+
+      p {
+        margin-right: 2rem;
+
+        @media (max-width: 769px) {
+          margin-right: 0;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+
+    .card__med {
+      padding: 1rem;
+      display: flex;
+      flex-direction: row-reverse;
+
+      @media (max-width: 769px) {
+        flex-direction: column;
+      }
+
+      img {
+        width: 110%;
+        margin-right: 2rem;
+
+        @media (max-width: 769px) {
+          width: 60%;
+          margin-right: 0;
+        }
+      }
+
+      p {
+        margin-left: 2rem;
+
+        @media (max-width: 769px) {
+          margin-left: 0;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .infra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem 0;
+
+    @media (max-width: 769px) {
+      flex-direction: column;
+    }
+
+    img {
+      width: 150%;
+      margin: 2rem;
+      border-radius: 1rem;
+
+      @media (max-width: 769px) {
+        width: 90%;
+      }
+    }
+
+    p {
+      color: $rosa;
+      font-size: 1.15rem;
+      margin-right: 1rem;
+      font-family: "Gotham Bold";
+      text-align: left;
+
+      @media (max-width: 769px) {
+        text-align: center;
+        margin-right: 0;
+        margin: 0.3rem 1.5rem;
+      }
+    }
+  }
+}
+
+@import "./noticie";
