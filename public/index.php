@@ -16,6 +16,24 @@ $posts = $postRepo->getPosts();
     <div class="container__image">
       <img src="public/img/banner.jpg" alt="banner" class="image">
     </div>
+    <div class="buttons__inscription">
+      <div class="card__button">
+        <button class="button med">
+          <i class="bi bi-rocket-takeoff-fill"></i>
+          <p>
+            Inscrições Ensino Médio
+          </p>
+        </button>
+      </div>
+      <div class="card__button">
+        <button class="button fund">
+          <i class="bi bi-rocket-takeoff-fill"></i>
+          <p>
+            Inscrições Ensino Fundamental
+          </p>
+        </button>
+      </div>
+    </div>
     <div class="topics">
       <div class="card__fund">
         <img src="/public/img/imagem1.jpeg" alt="imagem menina" />
@@ -65,7 +83,7 @@ $posts = $postRepo->getPosts();
         <?php foreach ($posts as $post): ?>
           <div class="noticie">
             <img src="https://www.unifeb.edu.br/uploads/posts/<?=$post->getImage();?>" alt="enganei você trouxa">
-            <a href="<?= $post->getLink(); ?>"><?=$post->getTitle()?></a>
+            <a href="https://www.unifeb.edu.br/posts/<?=$post->getLink();?>"><?=$post->getTitle()?></a>
           </div>
         <?php endforeach;?>
       </div>
@@ -77,8 +95,8 @@ $posts = $postRepo->getPosts();
   <footer class="footer">
       <div class="image__background">
         <p>
-        PARA MAIS INFORMAÇÕES FALE CONOSCO!
-        WhatsApp (17) 3321-6417 ou ligue (17) 3321-6417
+        FALE CONOSCO!
+        WhatsApp (17) 3321-6417
         </p>
       </div>
       <div class="container__icon-plus-logo">
@@ -100,6 +118,7 @@ $posts = $postRepo->getPosts();
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script src="public/js/controlOpacity.js"></script>
+  <script src="public/js/redirect.js"></script>
 </body>
 
 </html>

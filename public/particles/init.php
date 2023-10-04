@@ -24,7 +24,7 @@
           <a href="https://sistema.unifeb.edu.br/" target="_blank">Portal do Aluno</a>
         </li>
         <li class="ul__li">
-          <a href="./docs/CALENDARIO_ACADEMICO-2023.pdf" target="_blank">Caléndario Escolar</a>
+          <a href="public/docs/calendario.pdf" target="_blank">Calendário Escolar</a>
         </li>
         <li class="ul__li">
           <a href="https://play.google.com/store/apps/details?id=com.sistemaetapa.portalparceiro&hl=en_US"
@@ -37,10 +37,6 @@
         <li class="ul__li">
           <a href="https://play.google.com/store/apps/details?id=com.sistemaetapa.portalparceiro&hl=en_US"
             target="_blank">Edital</a>
-        </li>
-        <li class="ul__li">
-          <a href="https://play.google.com/store/apps/details?id=com.sistemaetapa.portalparceiro&hl=en_US"
-            target="_blank">Vestibulinho</a>
         </li>
       </ul>
     </nav>

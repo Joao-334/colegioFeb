@@ -18,11 +18,19 @@
     border-radius: 2rem;
     margin-top: 2rem;
 
+    @media (max-width: 769px) {
+      width: 90%;
+    }
+
     p {
       font-family: "Gotham Bold";
-      width: 55%;
+      width: 28%;
       font-size: 1.5rem;
       color: $rosa;
+
+      @media (max-width: 769px) {
+        width: 90%;
+      }
     }
   }
 
@@ -36,7 +44,7 @@
       width: 20%;
 
       @media (max-width: 769px) {
-        width: 40%;
+        width: 60%;
       }
     }
 
@@ -45,20 +53,22 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 1rem;
+      gap: 2rem;
       font-size: 2rem;
       text-align: center;
+
       i {
         text-align: center;
         color: $rosa;
-        margin-left: 1rem;
-        padding: 0.5rem;
         cursor: pointer;
-        transition: 1s;
+        transition: 0.25s;
+        margin: 0 auto;
+        padding: 0.3rem;
+        border-radius: 1rem;
 
         &:hover {
-          border-radius: 1.5rem;
           background-color: $azul;
+          font-size: 2.5rem;
         }
 
         @media (max-width: 769px) {
@@ -73,9 +83,9 @@
     font-size: 1.25rem;
     font-family: "Bakso Sapi";
 
-    
     @media (max-width: 769px) {
       font-size: 1rem;
+      margin: 2rem;
     }
   }
 }
